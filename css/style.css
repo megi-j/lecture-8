@@ -67,6 +67,7 @@ header {
     width: 108px;
     height: 53px;
 }
+/* 1st section ends */
 .green-box {
     background-color: #306B34;
     width: 100%;
@@ -100,3 +101,63 @@ header {
     margin-top: 50px;
     line-height: 30px;
 }
+/* 2nd section ends */
+.white-box {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    width: 273px;
+    height: 98px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+.title h1 {
+    font-family: 'Kazimir';
+    font-size: 30px;
+    font-style: italic;
+    color: #36413E;
+}
+.text-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    width: 696px;
+    height: 247px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.text-box p {
+    font-family: 'Kazimir';
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    color: #7F7F7F;
+}
+p:nth-child(2) {
+    margin-top: 30px;
+}
+.blog {
+    width: 148px;
+    height: 48px;
+    display: flex;
+    background-color: #36413E;
+    margin-top: 25px;
+    justify-content: center;
+}
+.blog a {
+    font-size: 12px;
+    font-family: 'Brandon Grotesque';
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+/* 3rd section ends */
