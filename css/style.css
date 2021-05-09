@@ -123,6 +123,7 @@ header {
     font-size: 30px;
     font-style: italic;
     color: #36413E;
+    font-weight: normal;
 }
 .text-box {
     display: flex;
@@ -161,3 +162,40 @@ p:nth-child(2) {
     align-items: center;
 }
 /* 3rd section ends */
+/* footer starts */
+.footer {
+    background-color: #306B34;
+    height: 76px;
+    width: 100%;
+    display: flex;
+    align-items: center;   
+}
+.footer div {
+    display: flex;
+    margin-left: 31px;
+}
+.footer a {
+    font-family: 'Brandon Grotesque';
+    font-size: 12px;
+    font-weight: bold;
+    color: #F4F4F1;
+    display: flex;
+    align-items: center;
+}
+.nav-footer {
+    width: 275px;
+    height: 15px;
+    margin-left: 503px;   
+}
+.nav-footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-footer a {
+    font-family: 'Brandon Grotesque';
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
